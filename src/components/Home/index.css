@@ -1,0 +1,91 @@
+.home-container{
+    height: 100vh; 
+    width: 100vw; 
+}
+.home-heading{
+    font-size: 30px; 
+    font-weight: 700; 
+    font-family: "Roboto"; 
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+}
+.book-paragraph{
+    font-size: 20px; 
+    font-weight: 400; 
+    font-family: "Roboto"; 
+    color: #000000;
+    margin: 10px;
+    text-align: center;
+}
+.content-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (max-width: 768px){
+    .both-book-container{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+.book-container{
+    height: 200px; 
+    width: 300px; 
+    background-color: #e0d8ce;
+    border-radius: 15px; 
+    border-width: 0px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    margin: 20px;
+
+}
+
+.one-heading{
+    font-size: 20px; 
+    font-family: "Roboto"; 
+    color: #000000; 
+    font-style: italic;
+
+}
+
+.book-now-btn{
+    height: 30px; 
+    width: 100px; 
+    border-width: 0px; 
+    border-radius: 8px; 
+    color: #ffffff; 
+    background-color: blue;
+    text-align: center;
+    font-size: 15px; 
+    font-family: "Roboto"; 
+    margin-top: 10px; 
+    outline: none; 
+    cursor: pointer; 
+}
+.both-book-container{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.booked-heading{
+    font-size: 28px;
+    color: green;
+    text-align: center; 
+    font-family: "Roboto"; 
+    font-weight: 800;  
+}

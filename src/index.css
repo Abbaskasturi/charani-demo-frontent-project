@@ -1,0 +1,11 @@
+
+*{
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: content-box;
+}
+.title-heading{
+  font-size: 20px; 
+  font-weight: 600; 
+  color: red; 
+}

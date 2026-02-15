@@ -1,0 +1,40 @@
+.view-container{
+    height: 200px; 
+    background-color: #ffffff; 
+    padding: 10px; 
+    width: 250px; 
+    margin: 10px; 
+    border-radius: 10px; 
+    border-width: 0px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.booked-name{
+    font-size: 20px; 
+    font-weight: 500; 
+    font-family: "Roboto"; 
+    color: #000000; 
+    margin-top: 5px;
+
+}
+.booked-para{
+     font-size: 15px; 
+    font-weight: 400; 
+    font-family: "Roboto"; 
+    color: #000000; 
+    text-align: center;
+    margin-top: 5px;
+}
+.booked-date{
+    font-size: 15px; 
+    font-weight: 400; 
+    font-family: "Roboto"; 
+    color: #000000; 
+    text-align: center;
+    margin-top: 5px;
+}
