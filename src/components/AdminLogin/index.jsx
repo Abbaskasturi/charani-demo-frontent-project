@@ -52,7 +52,7 @@ const AdminLogin = () => {
                     {
                         adminmsg&&<p className='admin-error'>{adminmsg}</p>
                     }
-                    <button type='submit' className='admin-btn'>Login</button> 
+                    <button type='submit' className='admin-btn all-btn'>Login</button> 
                 </form>
             </div>
         </div>

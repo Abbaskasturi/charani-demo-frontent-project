@@ -7,6 +7,7 @@ import AdminLogin from "./components/AdminLogin";
 import AdminHome from "./components/AdminHome";
 import Addadmin from "./components/Addadmin"; 
 import Viewstudent from "./components/Viewstudent";
+import Notfound from "./components/Notfound";
 
 const App = () => {
   return(
@@ -38,6 +39,7 @@ const App = () => {
           </Protected>
   
         }/>
+        <Route path="*" element={<Notfound/>}/>
       </Routes>
     </BrowserRouter>
   )

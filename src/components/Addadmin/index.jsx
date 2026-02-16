@@ -66,7 +66,7 @@ const Addadmin = () => {
                     {
                         <p className='add-person-msg'>{addmsg}</p>
                     }
-                    <button type='submit' className='admin-btn'>Add</button>  
+                    <button type='submit' className='admin-btn all-btn'>Add</button>  
                 </form>
             </div>
         </div>

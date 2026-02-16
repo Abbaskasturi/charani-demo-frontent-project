@@ -132,12 +132,12 @@ const Registration = () => {
               required
             />
             <p className='login-error'>{loginmsg}</p>
-            <button className="reg-btn" type="submit">
+            <button className="reg-btn all-btn" type="submit">
               Login
             </button>
 
             <button
-              className="have-btn"
+              className="have-btn all-btn"
               type="button"
               onClick={changelanding}
             >
@@ -184,12 +184,12 @@ const Registration = () => {
               required
             />
             <p className='register-msg'>{msg}</p>
-            <button className="reg-btn" type="submit">
+            <button className="reg-btn all-btn" type="submit">
               Register
             </button>
 
             <button
-              className="have-btn"
+              className="have-btn all-btn"
               type="button"
               onClick={changelanding}
             >

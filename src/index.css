@@ -9,3 +9,7 @@
   font-weight: 600; 
   color: red; 
 }
+.all-btn{
+  outline: none; 
+  cursor: pointer;
+}
